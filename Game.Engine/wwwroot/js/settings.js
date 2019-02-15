@@ -9,7 +9,7 @@ export const Settings = {
     theme: false,
     themeCustom: false,
     mouseScale: 1.0,
-    font: "Exo 2",
+    font: "Muli",
     leaderboardEnabled: true,
     displayMinimap: "always",
     hudEnabled: true,
@@ -47,7 +47,7 @@ function save() {
         reload = true;
     }
 
-    Settings.font = "Exo 2";
+    Settings.font = "Muli";
     Settings.mouseScale = document.getElementById("settingsMouseScale").value;
     Settings.leaderboardEnabled = document.getElementById("settingsLeaderboardEnabled").checked;
     Settings.showHints = document.getElementById("settingsShowHints").checked;
